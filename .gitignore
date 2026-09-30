@@ -1,0 +1,6 @@
+.lake/
+_out/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
