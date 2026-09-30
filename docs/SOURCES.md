@@ -44,5 +44,6 @@ or personal data is included in this repository.
   views, deferred until there is a concrete editing need beyond Verso hovers and reports.
 - [SciLean](https://github.com/lecopivo/SciLean): a potential formal/numerical extension. The initial
   experiment uses integer proofs and Python's standard library to keep the trust boundary small.
-- [Verso Blueprint](https://github.com/PatrickMassot/verso-blueprint): relevant to formalization plans;
-  the scientific observation/proposal loop has a different immediate need.
+- [Verso Blueprint v4.34.0](https://github.com/leanprover/verso-blueprint/blob/v4.34.0/README.md):
+  existing source/informal/formal layers and proof-progress/dependency navigation. The architecture
+  describes a narrow future reuse point; Blueprint is not installed or integrated in this prototype.

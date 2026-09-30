@@ -4,6 +4,23 @@ The notebook is an extension of `Verso.Genre.Manual`. Verso owns document parsin
 highlighting, proof-state hovers, document traversal, cross-references, and HTML generation.
 This repository adds two code-block expanders and a small numerical research harness.
 
+## Relationship to Verso Blueprint
+
+[Verso Blueprint v4.34.0](https://github.com/leanprover/verso-blueprint/blob/v4.34.0/README.md)
+separates source provenance, informal exposition, and associated formal Lean declarations. It also
+provides formalization-progress tracking and dependency views. These are useful existing layers
+for a larger research notebook. Our proposed integration would associate the six design theorems
+with Blueprint labels and reuse its declaration navigation and graph, while keeping measurement
+hashes and numerical/proposal statuses in the research harness. Formalization progress must not
+be interpreted as empirical confirmation.
+
+This is a future integration point, not a dependency or an implemented feature. The current Manual
+extension keeps narrative, navigable checked code, and experimental evidence together in a small
+publishable document. It can adopt Blueprint's formalization views when the proof/dependency graph
+grows, without inventing equivalent infrastructure or requiring a new notebook language first.
+
+## Research data flow
+
 ```mermaid
 flowchart TD
   Q[Scientist's question and assumptions] -->|authored document| V[Verso Manual]
