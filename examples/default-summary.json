@@ -1,0 +1,97 @@
+{
+  "final": {
+    "assumption_flag": "challenged",
+    "contrasts": [
+      {
+        "conditional_ci95": [
+          -0.15671597692354422,
+          2.0742305290485428
+        ],
+        "estimate": 0.9587572760624994,
+        "standard_error": 0.5563792588941466,
+        "treatment": 1
+      },
+      {
+        "conditional_ci95": [
+          0.9264479348264565,
+          3.1573944407985435
+        ],
+        "estimate": 2.0419211878125,
+        "standard_error": 0.5563792588941466,
+        "treatment": 2
+      },
+      {
+        "conditional_ci95": [
+          3.9281402305764557,
+          6.159086736548542
+        ],
+        "estimate": 5.043613483562499,
+        "standard_error": 0.5563792588941466,
+        "treatment": 3
+      }
+    ],
+    "count": 64,
+    "interval_status": "conditional on additive model and iid Gaussian noise; model challenged: intervals are diagnostic only",
+    "observation_hash": "832c18e1e5e8f976b6dee72537b102d28ff7895d22dd73a70b2aadb06e790a83",
+    "residual_df": 54,
+    "residual_rms": 1.4455157170232704,
+    "residual_sd": 1.5736781875023875,
+    "row_contrasts": [
+      3.2088096505000006,
+      3.2862398985000008,
+      2.910442591999999,
+      10.76896179325
+    ]
+  },
+  "initial": {
+    "assumption_flag": "challenged",
+    "contrasts": [
+      {
+        "conditional_ci95": [
+          -2.292976747521535,
+          4.332133663521534
+        ],
+        "estimate": 1.0195784579999998,
+        "standard_error": 1.3537697339476145,
+        "treatment": 1
+      },
+      {
+        "conditional_ci95": [
+          -1.352782202771535,
+          5.272328208271534
+        ],
+        "estimate": 1.9597730027499995,
+        "standard_error": 1.3537697339476145,
+        "treatment": 2
+      },
+      {
+        "conditional_ci95": [
+          1.5388350404784648,
+          8.163945451521535
+        ],
+        "estimate": 4.851390245999999,
+        "standard_error": 1.3537697339476145,
+        "treatment": 3
+      }
+    ],
+    "count": 16,
+    "interval_status": "conditional on additive model and iid Gaussian noise; model challenged: intervals are diagnostic only",
+    "observation_hash": "a3313cd30c08088b364208ead9d434f8c488e9a3cbdb022a31a880e1ceafa6a6",
+    "residual_df": 6,
+    "residual_rms": 1.172398980473135,
+    "residual_sd": 1.9145195180789332,
+    "row_contrasts": null
+  },
+  "proposal": {
+    "action": "complete_coverage",
+    "evidence_hash": "a3313cd30c08088b364208ead9d434f8c488e9a3cbdb022a31a880e1ceafa6a6",
+    "provider": "deterministic-residual-rule/v1",
+    "reason": "Observed residual RMS 1.172 exceeds 0.900.",
+    "revised_question": "Is the treatment-3 contrast row-dependent under complete column coverage?",
+    "shifts": [
+      1,
+      2,
+      3
+    ]
+  }
+}

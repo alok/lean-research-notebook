@@ -1,0 +1,6 @@
+'Lab.all_rows_balanced' depends on axioms: [propext, Quot.sound]
+'Lab.all_columns_balanced' depends on axioms: [propext, Quot.sound]
+'Lab.four_per_treatment' depends on axioms: [propext]
+'Lab.complete_coverage' depends on axioms: [propext, Quot.sound]
+'Lab.order_preserves_counts' depends on axioms: [propext, Quot.sound]
+'Lab.additive_contrast' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,12 @@
+Lean Research Notebook
+Copyright 2026 Alok Singh
+
+ResearchNotebook/Meta/Cells.lean and NotebookMain.lean adapt the saved-code block and document
+traversal pattern from leanprover/verso, test-projects/textbook/DemoTextbook/Meta/Lean.lean and
+DemoTextbookMain.lean, revision cad4b633e75ea769b851f12f9ca3b4f0dfcc625f (v4.34.0).
+Original copyright 2024-2025 Lean FRO LLC. Original author: David Thrane Christiansen.
+Released under Apache 2.0; the same license is provided in LICENSE.
+
+The official verso-templates textbook was inspected as an architectural example. Its source is
+not copied here. NOVA was inspected as a research-tool orchestration precedent; its code is not
+included. No private repository code or user data is included.
